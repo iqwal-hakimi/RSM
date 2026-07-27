@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Rakan Sukarela Muda</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+
+<!-- Navigation Bar -->
+<nav>
+
+<div class="logo">
+
+<span>RSM</span>
+
+<small>Rakan Sukarela Muda</small>
+
+</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="register.html">Join Us</a></li>
+    </ul>
+
+</nav>
+
+
+
+<!-- Programs Header -->
+
+<section class="program-header">
+
+    <h1>Our Volunteer Programs</h1>
+
+    <p>
+        RSM provides various community service programs that allow
+        young people to contribute and make a positive impact.
+    </p>
+
+</section>
+
+
+
+<!-- Program Cards -->
+
+<section class="programs">
+
+<div class="program-container">
+
+    <div class="program-card" onclick="openModal('environment')">
+        <h3>🌱 Environmental Care</h3>
+        <p>
+            Activities such as tree planting,
+            recycling campaigns, and cleaning public areas.
+        </p>
+    </div>
+
+    <div class="program-card" onclick="openModal('community')">
+        <h3>🤝 Community Service</h3>
+        <p>
+            Helping local communities through charity events,
+            donation programs, and social activities.
+        </p>
+    </div>
+
+    <div class="program-card" onclick="openModal('education')">
+        <h3>📚 Education Support</h3>
+        <p>
+            Providing learning support,
+            mentoring, and educational activities.
+        </p>
+    </div>
+
+    <div class="program-card" onclick="openModal('leadership')">
+        <h3>❤️ Youth Leadership</h3>
+        <p>
+            Developing young leaders through teamwork,
+            volunteer training, and leadership programs.
+        </p>
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- PROGRAM MODAL -->
+ 
+<div id="programModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <img id="modalImage" src="" alt="Program">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <h3>Activities</h3>
+
+        <ul id="modalActivities"></ul>
+
+        <a href="register.html" class="btn">
+            Join This Program
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Rakan Sukarela Muda. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
