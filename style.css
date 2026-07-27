@@ -147,7 +147,7 @@ nav ul li a:hover {
     height:100vh;
     background:linear-gradient(rgba(10,102,194,.65),
                rgba(0,168,107,.65)),
-               url("/images/hero.jpg") center/cover;
+               url("/..images/hero.jpg") center/cover;
     display:flex;
     justify-content:center;
     align-items:center;
