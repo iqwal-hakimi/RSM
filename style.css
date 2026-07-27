@@ -143,33 +143,6 @@ nav ul li a:hover {
    HERO
 ========================== */
 
-.hero{
-    height:100vh;
-    background:linear-gradient(rgba(10,102,194,.65),
-               rgba(0,168,107,.65)),
-               url("/images/hero.jpg") center/cover;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:white;
-    padding:20px;
-}
-
-.hero-content{
-    max-width:800px;
-}
-
-.hero h1{
-    font-size:58px;
-    margin-bottom:20px;
-    font-weight:700;
-}
-
-.hero p{
-    font-size:20px;
-    margin-bottom:35px;
-}
 
 /* Button */
 
